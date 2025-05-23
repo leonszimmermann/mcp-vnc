@@ -5,7 +5,7 @@ Model Context Protocol (MCP) Server to **remotely control any desktop using LLMs
 Also, **VMware Workstation / Fusion has a built-in VNC server**. Under you Virtual Machine's Settings > Advanced > Remote display over VNC. Enable it, and make sure to set a password. The port should be kept at default, 5900.
 
 
-As a client, I personally use the Anthropic **Claude Desktop** Application, with **Sonnet/Opus 4** (currently the best model for computer use).
+As an MCP client, I personally use the Anthropic **Claude Desktop** Application, with **Sonnet/Opus 4** (currently the best model for computer use).
 Any MCP-compatible client should work.
 
 **DO NOT TRUST ANY LLM TO RUN YOUR PC AUTONOMOUSLY WITHOUT SUPERVISION.**
@@ -23,7 +23,7 @@ pip install --upgrade fastmcp pillow vncdotool
 
 ### Download the MCP server script (mcp-vnc.py)
 
-[Download mcp-vnc.py](mcp-vnc.py)
+[Download mcp-vnc.py](mcp-vnc.py) and save it to a permanent location. Use the **absolute path for this in the args** of your MCP VNC Server (e.g. C:/.../.../mcp-vnc.py or Linux/macOS: /Users/.../.../mcp-vnc.py).
 
 ### Example claude_desktop_config.json
 
