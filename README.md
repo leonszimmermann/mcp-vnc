@@ -21,7 +21,9 @@ This MCP server requires [Python](https://www.python.org/downloads/) (including 
 pip install --upgrade fastmcp pillow vncdotool
 ```
 
-### Download the MCP server script (vnc-mcp.py)
+### Download the MCP server script (mcp-vnc.py)
+
+[Download mcp-vnc.py](mcp-vnc.py)
 
 ### Example claude_desktop_config.json
 
